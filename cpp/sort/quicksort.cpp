@@ -2,7 +2,7 @@
 #include <assert.h>
 using namespace std;
 
-template <class T>
+template <typename T>
 int partition(T A[], int l, int r)
 {
 	int m = l;
@@ -30,7 +30,7 @@ int partition(T A[], int l, int r)
 	return j; //return pivot
 }
 
-template <class T>
+template <typename T>
 void _quicksort(T A[], int l, int r)
 {
 	int i = l;
@@ -45,7 +45,7 @@ void _quicksort(T A[], int l, int r)
 }
 
 //create user friendly interface
-template <class T>
+template <typename T>
 void quicksort(T A[], int len)
 {
 	_quicksort(A, 0, len);

@@ -64,8 +64,6 @@ void shortest_path(int g[][VERTEX_NUM+1], cost_t path_cost[])
     }
 }
 
-
-
 int main()
 {
     cost_t path_cost[VERTEX_NUM+1];

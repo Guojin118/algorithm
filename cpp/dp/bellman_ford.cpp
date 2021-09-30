@@ -7,6 +7,7 @@ using namespace std;
 #define INF 65535
 #define VERTEX_NUM 7
 #define EDGE_NUM 10
+//add some comments and try to commit
 
 void bellman_ford(int edges[][EDGE_NUM+1], int path_cost[])
 {
